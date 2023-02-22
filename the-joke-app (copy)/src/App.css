@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(113, 133, 153);
+  color: ;
+}
+
+* {
+  box-sizing: border-box;
+  background-color: lightslategray;
+}
+
+body {
+  font-family: "Karla", sans-serif ;
+}
+
+.joke--line {
+  width: 50%;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.answer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 40px;
+
+}
+
+.answer--punch {
+  max-width: 230px;
+  font-size: 25px;
+}
+
+.punch--button {
+  border: 1px solid whitesmoke;
+  box-shadow: 5px 5px black;
+}
+
+.tip {
+  display: flex;
+  margin-left: 80px;
+  height: 10px;
+  width: 75px;
+}
