@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 350px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  height: 650px;
+  box-shadow: 5px 5px 5px 1px rgba(120,120,120,0.44);
+  -webkit-box-shadow: 5px 5px 5px 1px rgba(120,120,120,0.44);
+  -moz-box-shadow: 5px 5px 5px 1px rgba(120,120,120,0.44);
+}
+
+.card--image {
+  width: 100%;
+  padding: 10%;
+  padding-bottom: 0;
+}
+
+.card--name {
+  margin-block: 13px;
+  color: #333333;
+}
+
+.card--info {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.card--info h1 {
+  width: 22px;
+  cursor: pointer;
+}
+
+.card--favorite {
+  font-size: 25px;
+  width: 55px;
+  height: 55px;
+  cursor: pointer;
+}
+
+.card--contact {
+  font-size: 0.75rem;
+  color: gray;
+  margin-block: 7px;
+}
+
+.card--photo {
+  background-color: greenyellow;
+  border: solid 1px greenyellow;
+  width: 100%;
+  border-radius: 30%;
+  padding: 2%;
+  padding-bottom: 2%;
+}
+
+.card--status {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 150px;
+}
+
+.online {
+  color: greenyellow;
+}
+
+.ocupado {
+  color: crimson;
+}
+
+.offline {
+  color: darkgray;
+}
